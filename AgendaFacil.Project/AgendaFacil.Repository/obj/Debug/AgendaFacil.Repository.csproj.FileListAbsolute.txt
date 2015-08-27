@@ -1,0 +1,32 @@
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Repository.dll.config
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Repository.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Repository.pdb
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Domain.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.UI.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Domain.pdb
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.UI.pdb
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.xml
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.csprojResolveAssemblyReference.cache
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.pdb
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.Migrations._base.resources
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.csproj.GenerateResource.Cache
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Repository.dll.config
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Repository.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Repository.pdb
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Domain.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.UI.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.Domain.pdb
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\AgendaFacil.UI.pdb
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.xml
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.Migrations._base.resources
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.csproj.GenerateResource.Cache
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.Repository\obj\Debug\AgendaFacil.Repository.pdb

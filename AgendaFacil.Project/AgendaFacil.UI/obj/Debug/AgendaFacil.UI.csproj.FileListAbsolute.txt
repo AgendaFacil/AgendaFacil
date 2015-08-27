@@ -1,0 +1,23 @@
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll.config
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.pdb
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
+c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb
+C:\Users\aluno\Documents\Visual Studio 2013\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll.config
+C:\Users\aluno\Documents\Visual Studio 2013\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll
+C:\Users\aluno\Documents\Visual Studio 2013\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.pdb
+C:\Users\aluno\Documents\Visual Studio 2013\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Documents\Visual Studio 2013\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
+C:\Users\aluno\Documents\Visual Studio 2013\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb
+C:\Users\thiago.quartarolo\Desktop\Agenda Facil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll.config
+C:\Users\thiago.quartarolo\Desktop\Agenda Facil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll
+C:\Users\thiago.quartarolo\Desktop\Agenda Facil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.pdb
+C:\Users\thiago.quartarolo\Desktop\Agenda Facil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.csprojResolveAssemblyReference.cache
+C:\Users\thiago.quartarolo\Desktop\Agenda Facil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
+C:\Users\thiago.quartarolo\Desktop\Agenda Facil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll.config
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.pdb
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
+C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.csprojResolveAssemblyReference.cache

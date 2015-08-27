@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ms,amx" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\aluno\\Source\\Repos\\AgendaFacil\\AgendaFacil\.Project\\AgendaFacil\.UI\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\aluno\\Source\\Repos\\AgendaFacil\\AgendaFacil\.Project\\AgendaFacil\.UI\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DB_AgendaFacil-Web.config Connection String" description="" value="Data Source=k2ari03c5o.database.windows.net,1433; Initial Catalog=DB_AgendaFacil;  User ID=agendafacil;Password=g337ecbandep4#;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\aluno\\Source\\Repos\\AgendaFacil\\AgendaFacil\.Project\\AgendaFacil\.UI\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DB_AgendaFacil']/@connectionString" />
+  </parameter>
+</parameters>

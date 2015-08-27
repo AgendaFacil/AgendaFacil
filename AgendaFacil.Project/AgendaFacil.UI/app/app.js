@@ -1,0 +1,29 @@
+﻿var app = angular.module('app', ['ngRoute']);
+
+app.config(function ($routeProvider, $locationProvider) {
+
+	$locationProvider.html5Mode(true);
+
+	$routeProvider
+
+
+	.when('/', {
+		templateUrl: 'app/Home/home.html',
+		controller: 'HomeCtrl',
+	})
+
+
+	.when('/cliente', {
+		templateUrl: 'app/Cliente/cliente.html',
+		controller: 'ClienteCtrl',
+	})
+
+	
+	.when('/agenda', {
+		templateUrl: 'app/Agenda/agenda.html',
+		controller: 'AgendaCtrl',
+	})
+
+	
+	.otherwise({ redirectTo: '/' });
+});
