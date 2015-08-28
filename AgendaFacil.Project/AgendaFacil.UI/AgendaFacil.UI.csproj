@@ -88,7 +88,9 @@
     <Content Include="content\bootstrap\js\npm.js" />
     <Content Include="content\css\navbar-vertical.css" />
     <Content Include="content\css\sb-admin-2.css" />
+    <Content Include="content\css\signin.css" />
     <Content Include="content\css\timeline.css" />
+    <Content Include="content\img\agendaFacilLogo.png" />
     <Content Include="content\js\sb-admin-2.js" />
     <Content Include="content\js\flot-data.js" />
     <Content Include="content\js\morris-data.js" />
@@ -96,6 +98,7 @@
     <Content Include="content\js\angular\angular-route.min.js" />
     <Content Include="content\js\angular\angular.min.js" />
     <Content Include="index.html" />
+    <Content Include="principal.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
