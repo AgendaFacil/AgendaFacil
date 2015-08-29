@@ -21,3 +21,9 @@ C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\A
 C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
 C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb
 C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.csprojResolveAssemblyReference.cache
+C:\Users\vinicius\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll.config
+C:\Users\vinicius\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll
+C:\Users\vinicius\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.pdb
+C:\Users\vinicius\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.csprojResolveAssemblyReference.cache
+C:\Users\vinicius\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
+C:\Users\vinicius\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb
