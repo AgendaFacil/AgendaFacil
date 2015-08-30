@@ -67,8 +67,6 @@
     <Content Include="app\partials\navbar-vertical.html" />
     <Content Include="app\partials\navbar.html" />
     <Content Include="beneficios.html" />
-    <Content Include="content\bootstrap\css\bootstrap-theme.css.map" />
-    <Content Include="content\bootstrap\css\bootstrap.css.map" />
     <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
@@ -95,7 +93,6 @@
     <Content Include="content\css\timeline.css" />
     <Content Include="content\css\zigzagtimeline.css" />
     <Content Include="content\img\agendaFacilLogo.png" />
-    <Content Include="content\img\favicon.ico" />
     <Content Include="content\img\size_810_16_9_quebra-cabeca.jpg" />
     <Content Include="content\img\wallpaperLogin.png" />
     <Content Include="content\js\navbar-vertical.js" />

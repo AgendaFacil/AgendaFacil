@@ -30,6 +30,5 @@ C:\Users\vinicius\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.UI\ob
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll.config
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.pdb
-C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.csprojResolveAssemblyReference.cache
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb
