@@ -92,6 +92,7 @@
     <Content Include="content\css\timeline.css" />
     <Content Include="content\img\agendaFacilLogo.png" />
     <Content Include="content\img\salaoBeleza.jpg" />
+    <Content Include="content\img\wallpaperLogin.png" />
     <Content Include="content\js\sb-admin-2.js" />
     <Content Include="content\js\flot-data.js" />
     <Content Include="content\js\morris-data.js" />
