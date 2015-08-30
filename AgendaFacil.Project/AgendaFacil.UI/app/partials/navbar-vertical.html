@@ -1,67 +1,75 @@
-﻿
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+﻿ 
+<style>
+    .active3 {
+        background-color: #606D80;
+        background-color: rgba(110, 141, 179, 0.54);
+        color: #fff;
+        font-size: 12pt;
+        font-weight: bold;
+    }
 
-<div class="nav-side-menu">
-	<div class="brand">Agenda Fácil</div>
-	<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+    .navbar-default .navbar-nav > li > a {
+        color: #7D81B1;
+    }
+</style>
+<div class="col-md-2 sidebar">
+        <div class="row">
+            <!-- uncomment code for absolute positioning tweek see top comment in css -->
+            <div class="absolute-wrapper"> </div>
+            <!-- Menu -->
+            <div class="side-menu">
+                <nav class="navbar navbar-default" role="navigation">
+                    <!-- Main Menu -->
+                    <div class="side-menu-container">
+                        <ul class="nav navbar-nav">
+                            <li ng-class="{active3: activetab == '/'}"><a href="/home" style="color: "><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+                            <li ng-class="{active: activetab == '/agenda'}"><a href="/agenda" style=" background-color: #fff;"><span class="glyphicon glyphicon-calendar"></span> Agenda</a></li>
+                            <li ng-class="{active: activetab == '/cliente'}"><a href="/cliente" style=" background-color: #fff;"><span class="glyphicon glyphicon-leaf"></span> Tratamentos</a></li>
 
-	<div class="menu-list">
+                            <!-- Dropdown-->
+                            <li class="panel panel-default" id="dropdown">
+                                <a data-toggle="collapse" href="#dropdown-lvl1" style=" background-color: #fff;">
+                                    <span class="glyphicon glyphicon-user"></span> Cliente <span class="caret"></span>
+                                </a>
 
-		<ul id="menu-content" class="menu-content collapse out">
-			<li>
-				<a href="#">
-					<i class="fa fa-dashboard fa-lg"></i> Dashboard
-				</a>
-			</li>
+                                <!-- Dropdown level 1 -->
+                                <div id="dropdown-lvl1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="#">Cadastrar</a></li>
+                                            <li><a href="#">Remover</a></li>
+                                            
 
-			<li data-toggle="collapse" data-target="#products" class="collapsed active">
-				<a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
-			</li>
-			<ul class="sub-menu collapse" id="products">
-				<li class="active"><a href="#">CSS3 Animation</a></li>
-				<li><a href="#">General</a></li>
-				<li><a href="#">Buttons</a></li>
-				<li><a href="#">Tabs & Accordions</a></li>
-				<li><a href="#">Typography</a></li>
-				<li><a href="#">FontAwesome</a></li>
-				<li><a href="#">Slider</a></li>
-				<li><a href="#">Panels</a></li>
-				<li><a href="#">Widgets</a></li>
-				<li><a href="#">Bootstrap Model</a></li>
-			</ul>
+                                            <!-- Dropdown level 2 -->
+                                            <li class="panel panel-default" id="dropdown">
+                                                <a data-toggle="collapse" href="#dropdown-lvl2">
+                                                    <span class="glyphicon glyphicon-off"></span> Sub Level <span class="caret"></span>
+                                                </a>
+                                                <div id="dropdown-lvl2" class="panel-collapse collapse">
+                                                    <div class="panel-body">
+                                                        <ul class="nav navbar-nav">
+                                                            <li><a href="#">Link</a></li>
+                                                            <li><a href="#">Link</a></li>
+                                                            <li><a href="#">Link</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
 
+                            <li><a href="#" style=" background-color: #fff;"><span class="glyphicon glyphicon-signal"></span> :)</a></li>
 
-			<li data-toggle="collapse" data-target="#service" class="collapsed">
-				<a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
-			</li>
-			<ul class="sub-menu collapse" id="service">
-				<li>New Service 1</li>
-				<li>New Service 2</li>
-				<li>New Service 3</li>
-			</ul>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
 
+            </div>
+        </div>
+    </div>
+   
+  
+   
 
-			<li data-toggle="collapse" data-target="#new" class="collapsed">
-				<a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
-			</li>
-			<ul class="sub-menu collapse" id="new">
-				<li>New New 1</li>
-				<li>New New 2</li>
-				<li>New New 3</li>
-			</ul>
-
-
-			<li>
-				<a href="#">
-					<i class="fa fa-user fa-lg"></i> Profile
-				</a>
-			</li>
-
-			<li>
-				<a href="#">
-					<i class="fa fa-users fa-lg"></i> Users
-				</a>
-			</li>
-		</ul>
-	</div>
-</div>

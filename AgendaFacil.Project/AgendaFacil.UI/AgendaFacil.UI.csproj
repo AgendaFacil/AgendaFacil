@@ -63,7 +63,9 @@
     <Content Include="app\Cliente\cliente.html" />
     <Content Include="app\Cliente\ClienteController.js" />
     <Content Include="app\Home\home.html" />
+    <Content Include="app\partials\footer.html" />
     <Content Include="app\partials\navbar-vertical.html" />
+    <Content Include="app\partials\navbar.html" />
     <Content Include="beneficios.html" />
     <Content Include="content\bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="content\bootstrap\css\bootstrap.css.map" />
@@ -96,7 +98,7 @@
     <Content Include="content\img\favicon.ico" />
     <Content Include="content\img\size_810_16_9_quebra-cabeca.jpg" />
     <Content Include="content\img\wallpaperLogin.png" />
-    <Content Include="content\js\sb-admin-2.js" />
+    <Content Include="content\js\navbar-vertical.js" />
     <Content Include="content\js\flot-data.js" />
     <Content Include="content\js\morris-data.js" />
     <Content Include="app\Home\HomeController.js" />
