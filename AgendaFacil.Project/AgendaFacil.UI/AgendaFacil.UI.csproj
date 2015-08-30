@@ -64,6 +64,7 @@
     <Content Include="app\Cliente\ClienteController.js" />
     <Content Include="app\Home\home.html" />
     <Content Include="app\partials\navbar-vertical.html" />
+    <Content Include="beneficios.html" />
     <Content Include="content\bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="content\bootstrap\css\bootstrap.css.map" />
     <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
@@ -90,8 +91,10 @@
     <Content Include="content\css\sb-admin-2.css" />
     <Content Include="content\css\signin.css" />
     <Content Include="content\css\timeline.css" />
+    <Content Include="content\css\zigzagtimeline.css" />
     <Content Include="content\img\agendaFacilLogo.png" />
-    <Content Include="content\img\salaoBeleza.jpg" />
+    <Content Include="content\img\favicon.ico" />
+    <Content Include="content\img\size_810_16_9_quebra-cabeca.jpg" />
     <Content Include="content\img\wallpaperLogin.png" />
     <Content Include="content\js\sb-admin-2.js" />
     <Content Include="content\js\flot-data.js" />

@@ -41,7 +41,8 @@ background-size: 100% auto;*/
 .footer-wrapper {
     z-index: 10;
     background-color: #6F5499;
-        box-sizing: border-box;
+    box-sizing: border-box;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
 }
 
 .footer-wrapper {
