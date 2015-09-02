@@ -11,19 +11,21 @@ app.config(function ($routeProvider, $locationProvider) {
 		templateUrl: 'app/Home/home.html',
 		controller: 'HomeCtrl',
 	})
-
-
 	.when('/cliente', {
 		templateUrl: 'app/Cliente/cliente.html',
 		controller: 'ClienteCtrl',
-	})
-
-	
+	})	
 	.when('/agenda', {
 		templateUrl: 'app/Agenda/agenda.html',
 		controller: 'AgendaCtrl',
 	})
-
-	
+	.when('/profissionais', {
+	    templateUrl: 'app/Profissional/profissional.html',
+	    controller: 'ProfissionalCtrl',
+	})
+    .when('/tratamento', {
+        templateUrl: 'app/Tratamento/tratamento.html',
+        controller: 'TratamentoCtrl',
+    })
 	.otherwise({ redirectTo: '/' });
 });

@@ -12,3 +12,8 @@ C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.Domain\bin\De
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.dll
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.pdb
+C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.Domain\bin\Debug\AgendaFacil.Domain.dll
+C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.Domain\bin\Debug\AgendaFacil.Domain.pdb
+C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.csprojResolveAssemblyReference.cache
+C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.dll
+C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.pdb

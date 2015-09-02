@@ -66,6 +66,10 @@
     <Content Include="app\partials\footer.html" />
     <Content Include="app\partials\navbar-vertical.html" />
     <Content Include="app\partials\navbar.html" />
+    <Content Include="app\Profissional\profissional.html" />
+    <Content Include="app\Profissional\ProfissionalController.js" />
+    <Content Include="app\Tratamento\tratamento.html" />
+    <Content Include="app\Tratamento\TratamentoController.js" />
     <Content Include="beneficios.html" />
     <Content Include="content\bootstrap-theme.css" />
     <Content Include="content\bootstrap-theme.min.css" />
@@ -79,6 +83,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Properties\PublishProfiles\thiago.pubxml" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

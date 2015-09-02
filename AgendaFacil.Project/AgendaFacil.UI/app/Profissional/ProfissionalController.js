@@ -1,7 +1,7 @@
-﻿app.controller('ClienteCtrl', function ($scope, $rootScope, $location) {
+﻿app.controller('ProfissionalCtrl', function ($scope, $rootScope, $location) {
     $rootScope.activetab = $location.path();
 
-    $scope.listaClientes = [
+    $scope.listaProfissionais = [
         { nome: 'Thiago Quartarolo', telefone: '(11)9 7382-7002', email: 'thiago.quartarolo@gmail.com' },
         { nome: 'Fabio Testeiro', telefone: '(11)9 7121-7122', email: 'fabio.testeiro@hotmail.com' },
         { nome: 'Maria das Dores', telefone: '(11)9 7688-2472', email: 'maria_1988@gmail.com' },
