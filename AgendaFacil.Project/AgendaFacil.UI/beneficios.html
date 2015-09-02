@@ -1,163 +1,135 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app>
 <head>
-    <title></title>
+	<title></title>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
 
-    <!-- <link href="content/css/index.css" rel="stylesheet" /> -->
+	<!-- <link href="content/css/index.css" rel="stylesheet" /> -->
+	<!-- resolver width 100% responsivo pagina -->
+	<link href="content/css/signin.css" rel="stylesheet" />
 
-    <!-- resolver width 100% responsivo pagina -->
-    <link href="content/css/signin.css" rel="stylesheet" />
-
-    <link href="content/css/zigzagtimeline.css" rel="stylesheet" />
+	<link href="content/css/zigzagtimeline.css" rel="stylesheet" />
 </head>
 <body>
-        <nav class="navbar navbar-default">
-            <div>
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Agenda Fácil</a>
-                </div>
+	<ng-include src="'/app/partials/menu-home.html'"></ng-include>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="beneficios.html">Por que utilizar?</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li>
-                            <a class="btn btn-default btn-outline btn-circle collapsed" data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Planos</a>
-                        </li>
-                    </ul>
-                    <ul class="collapse nav navbar-nav nav-collapse" id="nav-collapse1">
-                        <li><a href="#">Platinum</a></li>
-                        <li><a href="#">Gold</a></li>
-                        <li><a href="#">Basic</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container -->
-        </nav><!-- /.navbar -->
+	<!-- INICIO: ZIGZAG TIMELINE BENEFICIOS -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="text-center">Por que utilizar o Agenda Fácil?</h3>
+				<!--<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>-->
+				<ul class="timeline">
+					<li>
+						<div class="timeline-image">
+							<img class="img-circle img-responsive" src="http://lorempixel.com/250/250/business/10" />
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4>Adequado ao seu negócio</h4>
+							</div>
+							<div class="timeline-body">
+								<p class="text-muted">
+									A plataforma Agenda Fácil foi desenvolvida para abranger os mais diversos negócios que envolvam o processo de agendamento de serviço.
+								</p>
+							</div>
+						</div>
+						<div class="line"></div>
+					</li>
+					<li class="timeline-inverted">
+						<div class="timeline-image">
+							<img class="img-circle img-responsive" src="http://lorempixel.com/250/250/business/2" alt="">
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4>Cliente escolhe o melhor horário</h4>
+							</div>
+							<div class="timeline-body">
+								<p class="text-muted">
+									Nossa plataforma facilita para que seu cliente realize agendamentos nas datas e horários certos.
+								</p>
+							</div>
+						</div>
+						<div class="line"></div>
+					</li>
+					<li>
+						<div class="timeline-image">
+							<img class="img-circle img-responsive" src="http://lorempixel.com/250/250/business/3" alt="">
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4>Controle de Agendamento</h4>
+							</div>
+							<div class="timeline-body">
+								<p class="text-muted">
+									O Agenda Fácil possibilita que o estabelecimento organize de uma maneira simples os agendamentos realizados pelos clientes através do sistema ou presencialmente.
+								</p>
+							</div>
+						</div>
+						<!-- <div class="line"></div>-->
+					</li>
+					<!--
+					<li class="timeline-inverted">
+						<div class="timeline-image">
+							<img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/4" alt="">
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4>Step Three</h4>
+								<h4 class="subheading">Subtitle</h4>
+							</div>
+							<div class="timeline-body">
+								<p class="text-muted">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+						</div>
+						<div class="line"></div>
+					</li>
+					<li>
+						<div class="timeline-image">
+							<img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/5" alt="">
+						</div>
+						<div class="timeline-panel">
+							<div class="timeline-heading">
+								<h4>Bonus Step</h4>
+								<h4 class="subheading">Subtitle</h4>
+							</div>
+							<div class="timeline-body">
+								<p class="text-muted">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+						</div>
+					</li>
+						-->
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- FIM: ZIGZAG TIMELINE BENEFICIOS -->
+	<div class="footer-wrapper" style="color: #FFF;">
+		<span class="left-label" style="display:inline-block; margin-left: 10px;">Escritório de Projetos - 4ADS - Bandtec</span>
+		<span class="footer-link-separator" style="display:inline-block; width: 48%;"></span>
+		<span class="copyright" style="display:inline-block;">Copyright © 2015 Grupo Geetech. Todos os direitos reservados.</span>
+	</div>
 
-<!-- INICIO: ZIGZAG TIMELINE BENEFICIOS -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="text-center">Por que utilizar o Agenda Fácil?</h3>
-                    <!--<p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>-->
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/business/10" />
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Adequado ao seu negócio</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        A plataforma Agenda Fácil foi desenvolvida para abranger os mais diversos negócios que envolvam o processo de agendamento de serviço.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="line"></div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/business/2" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Cliente escolhe o melhor horário</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        Nossa plataforma facilita para que seu cliente realize agendamentos nas datas e horários certos.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="line"></div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/business/3" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Controle de Agendamento</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        O Agenda Fácil possibilita que o estabelecimento organize de uma maneira simples os agendamentos realizados pelos clientes através do sistema ou presencialmente.
-                                    </p>
-                                </div>
-                            </div>
-                           <!-- <div class="line"></div>-->
-                        </li>
-                        <!--
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/4" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Step Three</h4>
-                                    <h4 class="subheading">Subtitle</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="line"></div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/5" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Bonus Step</h4>
-                                    <h4 class="subheading">Subtitle</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                            -->
-                    </ul>
-                </div>
-            </div>
-        </div>
-    <!-- FIM: ZIGZAG TIMELINE BENEFICIOS -->
-    <div class="footer-wrapper" style="color: #FFF;">
-        <span class="left-label" style="display:inline-block; margin-left: 10px;">Escritório de Projetos - 4ADS - Bandtec</span>
-        <span class="footer-link-separator" style="display:inline-block; width: 48%;"></span>
-        <span class="copyright" style="display:inline-block;">Copyright © 2015 Grupo Geetech. Todos os direitos reservados.</span>
-    </div>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="content/js/angular/angular-route.min.js"></script>
+	<script src="content/js/angular/angular.min.js"></script>
 </body>
 </html>
