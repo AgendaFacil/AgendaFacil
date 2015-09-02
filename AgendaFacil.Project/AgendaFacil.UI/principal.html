@@ -1,4 +1,4 @@
-﻿<html>
+﻿<html ng-app>
 <head>
 	<title>Agenda Fácil</title>
 
@@ -16,105 +16,81 @@
 
 	<link href="content/css/signin.css" rel="stylesheet" />
 
-    <link rel="shortcut icon" href="/content/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/content/img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/content/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/content/img/favicon.ico" type="image/x-icon">
 
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-default">
-            <div>
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Agenda Fácil</a>
-                </div>
+	<ng-include src="'/app/partials/menu-home.html'"></ng-include>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="beneficios.html">Por que utilizar?</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li>
-                            <a class="btn btn-default btn-outline btn-circle collapsed" data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Planos</a>
-                        </li>
-                    </ul>
-                    <ul class="collapse nav navbar-nav nav-collapse" id="nav-collapse1">
-                        <li><a href="#">Platinum</a></li>
-                        <li><a href="#">Gold</a></li>
-                        <li><a href="#">Basic</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container -->
-        </nav><!-- /.navbar -->
-
-        <div class="container" style="min-height:85%">
+	<div class="container">
 
 
-            <form class="form-signin">
-                <div align="center">
-
-                    <img src="content/img/agendaFacilLogo.png" alt=""
-                         style="display: inline-block;" width="200px" />
-
-                </div>
-                <br />
-                <input type="text" id="txtUsuario" class="form-control" placeholder="Usuário" />
-
-                <input type="password" id="txtSenha" class="form-control" placeholder="Senha" />
-
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" value="remember-me" style="color: #FFF;" />
-                        Lembrar-me
-                    </label>
-                </div>
-
-                <!-- Animação loading
-                -->
-
-                <input type="button" value="Entrar" class="btn btn-lg btn-primary btn-block" />
-
-                <br /> Esqueceu a senha? Clique <a href="#">aqui</a>.<br /><br />
-            </form>
+		<div class="container" style="min-height:85%">
 
 
-        </div>
+			<form class="form-signin">
+				<div align="center">
 
-        <div class="footer-wrapper" style="color: #FFF;">
-            <span class="left-label" style="display:inline-block; margin-left: 10px;">Escritório de Projetos - 4ADS - Bandtec</span>
-            <span class="footer-link-separator" style="display:inline-block; width: 48%;"></span>
-            <span class="copyright" style="display:inline-block;">Copyright © 2015 Grupo Geetech. Todos os direitos reservados.</span>
-        </div>
+					<img src="content/img/agendaFacilLogo.png" alt=""
+						 style="display: inline-block;" width="200px" />
 
-            <!--
-                <div class="footer-wrapper">
-                    <div class="footer">
-                        <div class="nav navbar-left">
-                            <div class="footer-label bg-0-footer-label">
-                                <span class="left-label" style="display:inline-block;">Escritório de Projetos - 4ADS - Bandtec</span>
-                                <span class="right-label" style="display:inline-block;">- Grupo Geetech</span>
-                            </div>
-                            </div>
-                        </div>
+				</div>
+				<br />
+				<input type="text" id="txtUsuario" class="form-control" placeholder="Usuário" />
 
-                        <div class="nav navbar-right">
-                            <span class="copyright" style="display:inline-block;">Copyright © 2015 Apple Inc. Todos os direitos reservados.</span>
-                            <span class="footer-link-separator" style="display:inline-block;"></span>
-                        </div>
-                    </div>
-                </div>
-            -->
-        </div>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-        </script>
+				<input type="password" id="txtSenha" class="form-control" placeholder="Senha" />
+
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" value="remember-me" style="color: #FFF;" />
+						Lembrar-me
+					</label>
+				</div>
+
+				<!-- Animação loading
+				-->
+
+				<input type="button" value="Entrar" class="btn btn-lg btn-primary btn-block" />
+
+				<br /> Esqueceu a senha? Clique <a href="#">aqui</a>.<br /><br />
+			</form>
+
+
+		</div>
+
+		<div class="footer-wrapper" style="color: #FFF;">
+			<span class="left-label" style="display:inline-block; margin-left: 10px;">Escritório de Projetos - 4ADS - Bandtec</span>
+			<span class="footer-link-separator" style="display:inline-block; width: 48%;"></span>
+			<span class="copyright" style="display:inline-block;">Copyright © 2015 Grupo Geetech. Todos os direitos reservados.</span>
+		</div>
+
+		<!--
+			<div class="footer-wrapper">
+				<div class="footer">
+					<div class="nav navbar-left">
+						<div class="footer-label bg-0-footer-label">
+							<span class="left-label" style="display:inline-block;">Escritório de Projetos - 4ADS - Bandtec</span>
+							<span class="right-label" style="display:inline-block;">- Grupo Geetech</span>
+						</div>
+						</div>
+					</div>
+
+					<div class="nav navbar-right">
+						<span class="copyright" style="display:inline-block;">Copyright © 2015 Apple Inc. Todos os direitos reservados.</span>
+						<span class="footer-link-separator" style="display:inline-block;"></span>
+					</div>
+				</div>
+			</div>
+		-->
+	</div>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+
+	</script>
+	<script src="content/js/angular/angular-route.min.js"></script>
+	<script src="content/js/angular/angular.min.js"></script>
+
 </body>
 </html>

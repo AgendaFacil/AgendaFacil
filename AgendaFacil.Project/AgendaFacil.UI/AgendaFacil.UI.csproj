@@ -64,6 +64,7 @@
     <Content Include="app\Cliente\ClienteController.js" />
     <Content Include="app\Home\home.html" />
     <Content Include="app\partials\footer.html" />
+    <Content Include="app\partials\menu-home.html" />
     <Content Include="app\partials\navbar-vertical.html" />
     <Content Include="app\partials\navbar.html" />
     <Content Include="beneficios.html" />
