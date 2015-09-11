@@ -1,0 +1,88 @@
+﻿<style>
+    .dashboard-btn {
+      
+        background-image:none;
+        height: 100px;
+        width: 200px;
+        margin-right: 10px;
+        margin-bottom: 7px;
+
+        box-shadow: 1px 1px 5px #cce;
+    }
+
+    .bar{
+        background-color: blue;
+    }
+
+</style>
+
+<style>
+    .one, .two, .three{
+    position:absolute;
+	margin-top:-10px;
+	z-index:1;
+	height:30px;
+	width:40px;
+	border-radius:25px;
+	
+}
+.one{
+	left:25%;
+}
+.two{
+	left:50%;
+}
+.three{
+	left:75%;
+}
+.primary-color{
+	background-color:#4989bd;
+}
+.success-color{
+	background-color:#5cb85c;
+}
+.danger-color{
+	background-color:#d9534f;
+}
+.warning-color{
+	background-color:#f0ad4e;
+}
+.info-color{
+	background-color:#5bc0de;
+}
+.no-color{
+	background-color:inherit;
+}
+
+</style>
+
+
+<div class="col-md-9 content">
+    <div class="panel panel-default">
+        <div class="panel-heading" style="background-image: none">
+            Dashboard 
+        </div>
+        <div class="panel-body">
+            <div class="btn-group col-md-offset-2">
+                <button class="btn btn-default dashboard-btn" style="background-color:#9222FF;color:#fff" ><h4 >Usuarios</h4> <hr />700</button>
+                <button class="btn btn-default dashboard-btn" style="background-color: rgba(44, 218, 91, 0.82);color:#fff"><h4>Tratamentos</h4><hr />1.790</button>
+                <button class="btn btn-default dashboard-btn" style="background-color: #E5E521;color:#fff"><h4>CASH $</h4><hr />R$: 358.000,00</button>
+            </div>
+        
+            <hr />
+     
+            <div class="col-md-6">
+                Fase1
+                <div class="progress" style="height:15px">
+                    <div class="one primary-color"></div><div class="two primary-color"></div><div class="three no-color"></div>
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+                <hr />
+             
+
+               
+               
+
+            </div>
+    </div>
+</div>
