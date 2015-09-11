@@ -62,10 +62,6 @@
       <Project>{3dccd73b-3740-4557-a4b1-75f4c59ef8be}</Project>
       <Name>AgendaFacil.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AgendaFacil.UI\AgendaFacil.UI.csproj">
-      <Project>{80b6343d-f462-48a5-b19a-588a8ae09352}</Project>
-      <Name>AgendaFacil.UI</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

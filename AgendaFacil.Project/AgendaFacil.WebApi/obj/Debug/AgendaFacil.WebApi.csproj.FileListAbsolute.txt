@@ -11,23 +11,6 @@ c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaF
 c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.xml
 c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
 c:\users\aluno\documents\visual studio 2013\Projects\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll.config
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.pdb
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Cors.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.xml
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.xml
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.xml
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.xml
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.xml
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.csprojResolveAssemblyReference.cache
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
-C:\Users\aluno\Source\Repos\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll.config
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll
 C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.pdb
@@ -62,3 +45,133 @@ C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.W
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.csprojResolveAssemblyReference.cache
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll.config
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.pdb
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Cors.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.pdb
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll.config
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.pdb
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Cors.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.pdb
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.xml
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.xml
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
+C:\Users\Thiago Villaverde\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Helpers.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Mvc.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Optimization.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Razor.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\WebGrease.dll
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Helpers.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Mvc.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Optimization.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Razor.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aluno\Desktop\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll.config
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.pdb
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Cors.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Helpers.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Mvc.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Optimization.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Razor.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\WebGrease.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.pdb
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Helpers.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Mvc.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Optimization.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Razor.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
+C:\Users\Thiago Villaverde\Desktop\PROJETO\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll.config
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.WebApi.pdb
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Cors.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Helpers.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Mvc.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Optimization.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Razor.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\WebGrease.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Domain.pdb
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Helpers.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.Cors.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Mvc.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Optimization.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Razor.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb

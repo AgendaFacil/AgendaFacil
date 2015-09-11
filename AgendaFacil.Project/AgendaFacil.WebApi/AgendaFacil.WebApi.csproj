@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,7 +39,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -60,12 +68,39 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.Cors">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -74,6 +109,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Http.WebHost">
@@ -81,12 +119,92 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\Agenda\agenda.html" />
+    <Content Include="app\Agenda\AgendaController.js" />
+    <Content Include="app\app.js" />
+    <Content Include="app\Cliente\cliente.html" />
+    <Content Include="app\Cliente\ClienteController.js" />
+    <Content Include="app\Home\home.html" />
+    <Content Include="app\Home\HomeController.js" />
+    <Content Include="app\Login\beneficios.html" />
+    <Content Include="app\Login\contato.html" />
+    <Content Include="app\Login\LoginController.js" />
+    <Content Include="app\Login\sobre.html" />
+    <Content Include="app\partials\footer.html" />
+    <Content Include="app\partials\menu-home.html" />
+    <Content Include="app\partials\navbar-vertical.html" />
+    <Content Include="app\partials\navbar.html" />
+    <Content Include="app\Profissional\profissional.html" />
+    <Content Include="app\Profissional\ProfissionalController.js" />
+    <Content Include="app\Profissional\profissionalServices.js" />
+    <Content Include="app\Tratamento\tratamento.html" />
+    <Content Include="app\Tratamento\TratamentoController.js" />
+    <Content Include="app\Tratamento\TratamentoServices.js" />
+    <Content Include="content\bootstrap-theme.css" />
+    <Content Include="content\bootstrap-theme.min.css" />
+    <Content Include="content\bootstrap.css" />
+    <Content Include="content\bootstrap.min.css" />
+    <Content Include="content\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="content\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="content\bootstrap\css\bootstrap.css" />
+    <Content Include="content\bootstrap\css\bootstrap.min.css" />
+    <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="content\bootstrap\js\bootstrap.js" />
+    <Content Include="content\bootstrap\js\bootstrap.min.js" />
+    <Content Include="content\bootstrap\js\npm.js" />
+    <Content Include="content\css\navbar-vertical.css" />
+    <Content Include="content\css\sb-admin-2.css" />
+    <Content Include="content\css\signin.css" />
+    <Content Include="content\css\timeline.css" />
+    <Content Include="content\css\zigzagtimeline.css" />
+    <Content Include="content\img\agendaFacilLogo.png" />
+    <Content Include="content\img\size_810_16_9_quebra-cabeca.jpg" />
+    <Content Include="content\img\wallpaperLogin.png" />
+    <Content Include="content\js\angular\angular-route.min.js" />
+    <Content Include="content\js\angular\angular.min.js" />
+    <Content Include="content\js\flot-data.js" />
+    <Content Include="content\js\morris-data.js" />
+    <Content Include="content\js\navbar-vertical.js" />
+    <Content Include="content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\angular-chart.css" />
+    <Content Include="Scripts\angular-chart.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\Chart.js" />
+    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\table\bootstrap-table-export.js" />
+    <Content Include="Scripts\table\jquery.base64.js" />
+    <Content Include="Scripts\table\tableExport.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\ProfissionalController.cs" />
+    <Compile Include="Controllers\TratamentoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -94,6 +212,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="content\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scripts\jquery-1.9.0.min.map" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -104,6 +231,13 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Profissional\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgendaFacil.Domain\AgendaFacil.Domain.csproj">
+      <Project>{3dccd73b-3740-4557-a4b1-75f4c59ef8be}</Project>
+      <Name>AgendaFacil.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
