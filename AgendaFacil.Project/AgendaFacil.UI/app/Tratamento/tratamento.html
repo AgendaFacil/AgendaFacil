@@ -28,17 +28,17 @@
                 <table class="table table-striped" id="tabelaTratamento">
                     <thead>
                         <tr>
-                            <th>NOME</th>
-                            <th>TELEFONE</th>
-                            <th>EMAIL</th>
+                            <th>PROFISSIONAL</th>
+                            <th></th>
+                            <th>Tratamento</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr ng-repeat="item in listaTratamento | filter: filtroTratamento">
-                            <td>{{item.nome}}</td>
-                            <td>{{item.telefone}}</td>
-                            <td>{{item.email}}</td>
+                            <td>{{item.profissional}}</td>
+                            <td></td>
+                            <td>{{item.tratamento}}</td>
                             <td>
                                 <input type="button" class="btn btn-success btn-xs" value="Editar" />
                                 <input type="button" class="btn btn-warning btn-xs" value="Detalhes" />

@@ -35,5 +35,6 @@ C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll.config
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.dll
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\bin\AgendaFacil.UI.pdb
+C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.csprojResolveAssemblyReference.cache
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.dll
 C:\Users\thiago.quartarolo\Desktop\AgendaFacil\AgendaFacil.Project\AgendaFacil.UI\obj\Debug\AgendaFacil.UI.pdb

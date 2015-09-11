@@ -2,7 +2,6 @@
     <h1 class="page-header">Lista de Clientes</h1>
     <div class="row">
     </div>
-
     <div class="panel panel-default ">
         <div class="panel-heading">
             Filtro de Busca
@@ -19,7 +18,7 @@
             Resultados
             <div class="pull-right">
                 <div class="btn-group">
-                    <a href="" class="btn btn-primary btn-xs ">Novo Cliente</a>
+                    <a href="" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modCadastro">Novo Cliente</a>
                 </div>
             </div>
         </div>
@@ -40,9 +39,9 @@
                             <td>{{item.telefone}}</td>
                             <td>{{item.email}}</td>
                             <td>
-                                <input type="button" class="btn btn-success btn-xs" value="Editar" />
-                                <input type="button" class="btn btn-warning btn-xs" value="Detalhes" />
-                                <input type="button" class="btn btn-danger btn-xs" value="Bloquear" />
+                                <input type="button" class="btn btn-success btn-xs" value="Editar" data-toggle="modal" data-target="#modEditar" />
+                                <input type="button" class="btn btn-warning btn-xs" value="Detalhes" data-toggle="modal" data-target="#modDetal" />
+                                <input type="button" class="btn btn-danger btn-xs" value="Bloquear" data-toggle="modal" data-target="#modBloq" />
                             </td>
                         </tr>
                     </tbody>
@@ -51,4 +50,255 @@
         </div>
     </div>
 </div>
+
+<!--MODAL CADASTRO-->
+<div class="container">
+    <div class="modal fade" id="modCadastro" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Cadastrar Cliente</h3>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 formContent">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="col-lg-12">
+                                        <form role="form">
+                                            <div class="form-group">
+
+                                                <label class="col-md-4 control-label">Nome</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Endereço</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Email</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Telefone</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Data de Nascimento</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" value="Cadastrar" />
+                    <input type="button" class="btn btn-default" value="Voltar" data-dismiss="modal" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL CADASTRO-->
+
+<!--MODAL EDITAR-->
+<div class="container">
+    <div class="modal fade" id="modEditar" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Editar Cliente</h3>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 formContent">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="col-lg-12">
+                                        <form role="form">
+                                            <div class="form-group">
+
+                                                <label class="col-md-4 control-label">Nome</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Endereço</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Email</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Telefone</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Data de Nascimento</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <input type="text" class="form-control" />
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-success" value="Salvar" />
+                    <input type="button" class="btn btn-default" value="Voltar" data-dismiss="modal" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL EDITAR-->
+
+<!--MODAL DETALHE-->
+<div class="container">
+    <div class="modal fade" id="modDetal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Detalhes do Cliente</h3>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 formContent">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="col-lg-push-12">
+                                        <form role="form">
+                                            <div class="form-group">
+
+                                                <label class="col-md-4 control-label">Nome:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>testestsets desrgerr</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Endereço:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>wefwefwe erwerv rewefwefwe wrrr</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Email:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>wfwefw rbntebebeeeeeeeeeeeeervee</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Telefone:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>234253222</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Data de Nascimento:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>w2wefwefwefww</span>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-default" value="Voltar" data-dismiss="modal" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL DETALHE-->
+
+<!--MODAL BLOQUEAR-->
+<div class="container">
+    <div class="modal fade" id="modBloq" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>Deseja Bloquear o Cliente?</h3>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 formContent">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="col-lg-push-12">
+                                        <form role="form">
+                                            <div class="form-group">
+
+                                                <label class="col-md-4 control-label">Nome:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>testestsets desrgerr</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Endereço:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>wefwefwe erwerv rewefwefwe wrrr</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Email:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>wfwefw rbntebebeeeeeeeeeeeeervee</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Telefone:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>234253222</span>
+                                                </div>
+
+                                                <label class="col-md-4 control-label">Data de Nascimento:</label>
+                                                <div class="col-md-8" style="margin-bottom: 15px;margin-top: -5px;">
+                                                    <span>w2wefwefwefww</span>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-danger" value="Bloquear" />
+                    <input type="button" class="btn btn-default" value="Voltar" data-dismiss="modal" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL BLOQUEAR-->
 
