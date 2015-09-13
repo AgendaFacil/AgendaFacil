@@ -32,15 +32,19 @@
         <!--Menu Horizontal-->
     <div ng-include="'app/partials/navbar.html'"></div>
 
-    <div class="container-fluid main-container">
-        <div ng-include="'app/partials/navbar-vertical.html'"></div>
+<div class="container-fluid main-container">
+
+
+    <button class="btn btn-info btn-sm" style="margin-bottom: 10px; margin-left: 10px"><i class="fa fa-plus"></i>Novo Agendamento</button>
+    <button class="btn btn-warning btn-outline btn-sm" style="margin-bottom: 10px; margin-left: 10px"><i class="fa fa-file-text-o"></i>Consultar Agenda</button>
+    <div ng-include="'app/partials/navbar-vertical.html'"></div>
 
 
 
-        <!--Menu Vertical-->
-        <!--NG-VIEW-->
-        <div ng-view></div>
-    </div>
+    <!--Menu Vertical-->
+    <!--NG-VIEW-->
+    <div ng-view></div>
+</div>
 
     <!--FOOTER-->
     <div ng-include="'app/partials/footer.html'"></div>

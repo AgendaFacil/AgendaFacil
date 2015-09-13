@@ -150,45 +150,52 @@
         </div>
         <div class="panel-body">
 
-            <!--<ul class="nav nav-pills nav-stacked">
 
-                <li ng-class="{active3: activetab == '/'}"><a href="/home" style="color: "><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
-                <li ng-class="{active: activetab == '/cliente'}"><a href="/cliente" style=" background-color: #fff;"><span class="glyphicon glyphicon-user"></span> Clientes</a></li>
-                <li ng-class="{active: activetab == '/profissionais'}"><a href="/profissionais" style=" background-color: #fff;"><span class="glyphicon glyphicon-leaf"></span> Profissionais</a></li>
-                <li ng-class="{active: activetab == '/tratamento'}"><a href="/tratamento" style=" background-color: #fff;"><span class="glyphicon glyphicon-leaf"></span> Tratamentos</a></li>
-                <li ng-class="{active: activetab == '/agenda'}"><a href="/agenda" style=" background-color: #fff;"><span class="glyphicon glyphicon-calendar"></span> Agenda</a></li>
-
-
-            </ul>-->
-
+        
             <ul class="nav nav-pills nav-stacked">
 
 
 
                 <li ng-class="{active3: activetab == '/'}" class="seila"><a href="/home" class="seila"><span class="fa fa-angle-double-right text-primary"></span> Dashboard</a></li>
+                <li ng-class="{active3: activetab == '/profissionais'}"><a href="/profissionais" class="seila"><span class="fa fa-angle-double-right text-primary"></span> Profissionais</a></li>
                 <li>
-                    <a href="#dropdown" data-toggle="collapse" class="seila">Paciente<span class="fa fa-angle-double-down text-primary" style="margin-left:15px"></span></a>
+                    <a href="#dropdown" data-toggle="collapse" class="seila">Clientes<span class="fa fa-angle-double-down text-primary" style="margin-left:15px"></span></a>
                 </li>
                 <li>
                     <div class="panel-collapse collapse" id="dropdown" style="background-color:rgba(0, 0, 0, 0);">
                         <div class="panel-body">
                             <ul class="nav navbar-nav">
                                 <li style="width:170px">
-                                    <a href="/cliente" style="color:#544CB5; border-bottom: 1px solid #cecece"><span></span>Lista de pacientes</a>
+                                    <a href="/cliente" style="color:#544CB5; border-bottom: 1px solid #cecece"><span></span>Lista de clientes</a>
                                 </li>
                                 <li style="width:170px">
-                                    <a href="/tratamento" styl style="color:#544CB5"><span class=""></span>Agendar Tratamento</a>
+                                    <a href="/tratamento" style="color:#544CB5"><span class=""></span>Agendar Tratamento</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                 </li>
-                <li ng-class="{active3: activetab == '/profissionais'}"><a href="/profissionais" class="seila"><span class="fa fa-angle-double-right text-primary"></span> Profissionais</a></li>
+             
                 
-                <li ng-class="{active3: activetab == '/agenda'}"><a href="/agenda" class="seila"><span class="fa fa-angle-double-right text-primary"></span> Agendamento</a></li>
-
-                
+            
+                <li>
+                    <a href="#dropdownServicos" data-toggle="collapse" class="seila">Serviços<span class="fa fa-angle-double-down text-primary" style="margin-left:15px"></span></a>
+                </li>
+                <li>
+                    <div class="panel-collapse collapse" id="dropdownServicos" style="background-color:rgba(0, 0, 0, 0);">
+                        <div class="panel-body">
+                            <ul class="nav navbar-nav">
+                                <li style="width:170px">
+                                    <a href="/agenda" style="color:#544CB5; border-bottom: 1px solid #cecece"><span></span>Agendamento</a>
+                                </li>
+                                <li style="width:170px">
+                                    <a href="/tratamento" styl style="color:#544CB5"><span class=""></span>Cadastrar Serviço</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
             </ul>
 
         </div>
