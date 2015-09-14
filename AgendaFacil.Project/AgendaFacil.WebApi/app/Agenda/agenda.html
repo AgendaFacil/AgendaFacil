@@ -4,6 +4,7 @@
     body {
         background-color: #F7F7F7;
         font-family: 'Open Sans', sans-serif;
+        padding-top:0px
     }
     /*Navbar*/
     .navbar-default {
@@ -114,9 +115,7 @@
 <style>
     @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
-body {
-    padding: 30px 0px 60px;
-}
+
 .panel > .list-group .list-group-item:first-child {
     /*border-top: 1px solid rgb(204, 204, 204);*/
 }
@@ -209,7 +208,259 @@ ul.c-controls li a:hover {
 </style>
 
 
-<script>
+<style>
+  
+.widget .panel-body { padding:0px; }
+.widget .list-group { margin-bottom: 0; }
+.widget .panel-title { display:inline }
+.widget .label-info { float: right; }
+.widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+.widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+.widget .mic-info { color: #666666;font-size: 11px; }
+.widget .action { margin-top:5px; }
+.widget .comment-text { font-size: 12px; }
+.widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+</style>
+
+<style>
+    /***
+Bootstrap Line Tabs by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+
+.content {
+	padding: 30px;
+
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+/* Portlet */
+.portlet {
+	background: #fff;
+	padding: 20px;
+}
+
+.portlet.portlet-gray {
+	background: #f7f7f7;
+}
+
+.portlet.portlet-bordered {
+	border: 1px solid #eee;
+}
+
+/* Portlet Title */
+.portlet-title {
+	padding: 0;
+  	min-height: 40px;
+  	border-bottom: 1px solid #eee;
+  	margin-bottom: 18px;
+}
+
+.caption {
+	float: left;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.caption.caption-green .caption-subject,
+.caption.caption-green i {
+	color: #4db3a2;
+	font-weight: 200;
+}
+
+.caption.caption-red .caption-subject,
+.caption.caption-red i {
+	color: #e26a6a;
+	font-weight: 200;
+}
+
+.caption.caption-purple .caption-subject,
+.caption.caption-purple i {
+	color: #8775a7;
+	font-weight: 400;
+}
+
+.caption i {
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	margin-top: 3px;
+}
+
+.caption-subject {
+	color: #666;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.caption-helper {
+	padding: 0;
+	margin: 0;
+	line-height: 13px;
+	color: #9eacb4;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* Actions */
+.actions {
+	float: right;
+  	display: inline-block;
+}
+
+.actions a {
+	margin-left: 3px;
+}
+
+.actions .btn {
+	color: #666;
+	padding: 3px 9px;
+	font-size: 13px;
+  	line-height: 1.5;
+  	background-color: #fff;
+  	border-color: #ccc;
+  	border-radius: 50px;
+}
+
+.actions .btn i {
+	font-size: 12px;
+}
+
+.actions .btn:hover {
+	background: #f2f2f2;
+}
+
+/* Pagination */
+.pagination {
+	margin: -3px 0 0;
+	border-radius: 50px;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+	padding: 4px 10px;
+	font-size: 12px;
+	color: #8775a7;
+	background: #f7f7f7;
+}
+
+.pagination > li:hover > a,
+.pagination > li.active > a,
+.pagination > li.active:hover > a {
+	color: #fff;
+	background: #8775a7;
+	border-color: #8775a7;
+}
+
+/* Inputs */
+.inputs {
+	float: right;
+	display: inline-block;
+	padding: 4px 0;
+	margin-top: -10px;
+}
+
+.input-inline {
+	width: 240px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Tab */
+.portlet-title > .nav-tabs {
+	background: none;
+	margin: 0;
+	float: right;
+	display: inline-block;
+	border: 0;
+}
+
+.portlet-title > .nav-tabs > li {
+	background: none;
+	margin: 0;
+	border: 0;
+}
+
+.portlet-title > .nav-tabs > li > a {
+	background: none;
+	border: 0;
+	padding: 2px 10px 13px;
+	color: #444;
+}
+
+.portlet-title > .nav-tabs > li.active,
+.portlet-title > .nav-tabs > li.active:hover {
+  	border-bottom: 4px solid #f3565d;
+  	position: relative;
+  }
+
+  .portlet-title > .nav-tabs > li:hover {
+  	border-bottom: 4px solid #f29b9f;
+  }
+
+.portlet-title > .nav-tabs > li.active > a,
+.portlet-title > .nav-tabs > li:hover > a {
+	color: #333;
+	background: #fff;
+	border: 0;
+}
+
+/* Btn Circle */
+.actions .btn.btn-circle {
+	width: 28px;
+	height: 28px;
+	padding: 3px 7px;
+	text-align: center;
+}
+
+.actions .btn.btn-circle i {
+	font-size: 11px;
+}
+
+/* Btn Grey Salsa */
+.actions .btn.grey-salsa {
+	border: none;
+	margin-left: 3px;
+	box-shadow: none;
+	border-radius: 50px !important;
+}
+
+.actions .btn.grey-salsa.active {
+	color: #fafcfb;
+	background: #8e9bae;
+}
+  .actions .grey-salsa.btn:hover,
+  .actions .grey-salsa.btn:focus,
+  .actions .grey-salsa.btn:active,
+  .actions .grey-salsa.btn.active {
+	color: #fafcfb;
+	background: #97a3b4;
+}
+
+/* Btn Red */
+.actions .btn.btn-red.active,
+.actions .btn.btn-red:hover {
+	color: #fff;
+	box-shadow: none;
+	background: #e26a6a;
+	border-color: #e26a6a;
+}
+
+/* Btn Red */
+.actions .btn.btn-purple.active,
+.actions .btn.btn-purple:hover {
+	color: #fff;
+	box-shadow: none;
+	background: #8775a7;
+	border-color: #8775a7;
+}
+</style>
+<!--<script>
     $(function () {
     /* BOOTSNIPP FULLSCREEN FIX */
     if (window.location == window.parent.location) {
@@ -252,139 +503,345 @@ ul.c-controls li a:hover {
     })
 });
 
-</script>
+</script>-->
 
 <div class="col-md-9 content">
-   
-        
 
 
-                        <ul class="mail-list" style="background-color:#fff; margin-bottom:5px">
-                            <li>
-                                <a href="">
-                                    <span class="mail-sender">You Tube</span>
-                                    <span class="mail-subject">New subscribers!</span>
-                                    <span class="mail-message-preview">You have ten more subscriptions click her...</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <span class="mail-sender">You Tube</span>
-                                    <span class="mail-subject">New subscribers!</span>
-                                    <span class="mail-message-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet ipsum nisi? Eaque odio quae debitis saepe explicabo alias sit tenetur animi...</span>
-                                </a>
-                            </li>
-                         
-                         
-                        </ul>
-                    </div>
+    <div class="portlet">
+        <div class="portlet-title">
+            <div class="caption caption-green">
+                <i class="fa fa-clock-o fa-2x"></i>
+                <span class="caption-subject text-uppercase"> Agenda</span>
+                <span class="caption-helper"></span>
+            
+            </div>
+            <div class="actions">
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn grey-salsa active">
+                        <input type="radio" name="options" class="toggle" id="option1">Hoje
+                    </label>
+                    <label class="btn grey-salsa">
+                        <input type="radio" name="options" class="toggle" id="option2">Semana
+                    </label>
+                    <label class="btn grey-salsa">
+                        <input type="radio" name="options" class="toggle" id="option2">Mês
+                    </label>
+                </div>
+            </div>
+
      
+        </div>
+        <div class="portlet-body" ng-repeat="item in lstAgenda" >
+         
+
+            <h4 ng-show="separarDatas(item.data)"><!--Agenda para hoje--> {{item.data}}</h4>
+
+            <div class="panel panel-default widget" ng-init="teste=item.data" >
+
+                <div class="panel-body" >
+                    <ul class="list-group">
+                        <li class="list-group-item" >
+                            <div class="row" >
+                                <div class="col-xs-2 col-md-1">
+                                    <i class="fa fa-clock-o fa-5x" style="color: green"></i>
+                                </div>
+                                <div class="col-xs-10 col-md-11">
+                                    <div>
+                                        <a href="#">
+                                            {{item.nome}}
+                                          
+                                        </a>
+                                        <div class="mic-info">
+                                            <!--Agendado para  14 Setembro 2015 as 10:00-->
+                                            {{item.hora}}
+                                        </div>
+                                    </div>
+                                    <div class="comment-text">
+                                        Ação
+                                    </div>
+                                    <div class="action">
+                                        <button type="button" class="btn btn-primary btn-xs" title="Editar">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-warning btn-xs" title="Cancelar">
+                                            <span class="fa fa-ban"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="row">
-        <div class="col-md-9">
-            <div class="panel panel-default" style="height:400px; width:400px;">
-                <div class="panel-heading c-list" style="background-image:none">
-                    <span class="title">Contacts</span>
-                    <ul class="pull-right c-controls">
-                        <li><a href="#cant-do-all-the-work-for-you" data-toggle="tooltip" data-placement="top" title="Add Contact"><i class="glyphicon glyphicon-plus"></i></a></li>
-                        <li><a href="#" class="hide-search" data-command="toggle-search" data-toggle="tooltip" data-placement="top" title="Toggle Search"><i class="fa fa-ellipsis-v"></i></a></li>
                     </ul>
+                    <!--<a href="#" class="btn btn-primary btn-sm btn-block" role="button"><span class="glyphicon glyphicon-refresh"></span> Mais</a>-->
                 </div>
+            </div>
+        </div>
 
-                <div class="row" style="display: none;">
-                    <div class="col-xs-12">
-                        <div class="input-group c-search">
-                            <input type="text" class="form-control" id="contact-list-search">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search text-muted"></span></button>
-                            </span>
+        <div class="portlet-body">
+            <h4>Agenda para 16-9-2015</h4>
+
+            <div class="panel panel-default widget">
+
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xs-2 col-md-1">
+                                    <i class="fa fa-clock-o fa-5x" style="color: #cce"></i>
+                                </div>
+                                <div class="col-xs-10 col-md-11">
+                                    <div>
+                                        <a href="#">
+                                            Thiago Quartarolo
+                                        </a>
+                                        <div class="mic-info">
+                                            Agendado para  16 Setembro 2015 as 14:00
+                                        </div>
+                                    </div>
+                                    <div class="comment-text">
+                                        Ação
+                                    </div>
+                                    <div class="action">
+                                        <button type="button" class="btn btn-primary btn-xs" title="Editar">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-success btn-xs" title="Confirmar">
+                                            <span class="glyphicon glyphicon-ok"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xs-2 col-md-1">
+                                    <i class="fa fa-clock-o fa-5x" style="color: #cce"></i>
+                                </div>
+                                <div class="col-xs-10 col-md-11">
+                                    <div>
+                                        <a href="#">
+                                            Flávia
+                                        </a>
+                                        <div class="mic-info">
+                                            Agendado para  16 Setembro 2015 as 16:00
+                                        </div>
+                                    </div>
+                                    <div class="comment-text">
+                                        Ação
+                                    </div>
+                                    <div class="action">
+                                        <button type="button" class="btn btn-primary btn-xs" title="Editar">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-success btn-xs" title="Confirmar">
+                                            <span class="glyphicon glyphicon-ok"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <!--<a href="#" class="btn btn-primary btn-sm btn-block" role="button"><span class="glyphicon glyphicon-refresh"></span> Mais</a>-->
+                </div>
+            </div>
+        </div>
+
+        <div class="portlet-body">
+            <h4>Agenda para 17-9-2015</h4>
+
+            <div class="panel panel-default widget">
+
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xs-2 col-md-1">
+                                    <i class="fa fa-clock-o fa-5x" style="color: red"></i>
+                                </div>
+                                <div class="col-xs-10 col-md-11">
+                                    <div>
+                                        <a href="#">
+                                            Vinicius Justos
+                                        </a>
+                                        <div class="mic-info">
+                                            Agendado para  17 Setembro 2015 as 11:00
+                                        </div>
+                                    </div>
+                                    <div class="comment-text">
+                                        Ação
+                                    </div>
+                                    <div class="action">
+                                        <button type="button" class="btn btn-primary btn-xs" title="Editar">
+                                            <span class="glyphicon glyphicon-pencil"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-success btn-xs" title="Confirmar">
+                                            <span class="glyphicon glyphicon-ok"></span>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                                            <span class="glyphicon glyphicon-trash"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <!--<a href="#" class="btn btn-primary btn-sm btn-block" role="button"><span class="glyphicon glyphicon-refresh"></span> Mais</a>-->
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+                <!--
+
+                                    <ul class="mail-list" style="background-color:#fff; margin-bottom:5px">
+                                        <li>
+                                            <a href="">
+                                                <span class="mail-sender">You Tube</span>
+                                                <span class="mail-subject">New subscribers!</span>
+                                                <span class="mail-message-preview">You have ten more subscriptions click her...</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span class="mail-sender">You Tube</span>
+                                                <span class="mail-subject">New subscribers!</span>
+                                                <span class="mail-message-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet ipsum nisi? Eaque odio quae debitis saepe explicabo alias sit tenetur animi...</span>
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="panel panel-default" style="height:400px; width:400px;">
+                            <div class="panel-heading c-list" style="background-image:none">
+                                <span class="title">Contacts</span>
+                                <ul class="pull-right c-controls">
+                                    <li><a href="#cant-do-all-the-work-for-you" data-toggle="tooltip" data-placement="top" title="Add Contact"><i class="glyphicon glyphicon-plus"></i></a></li>
+                                    <li><a href="#" class="hide-search" data-command="toggle-search" data-toggle="tooltip" data-placement="top" title="Toggle Search"><i class="fa fa-ellipsis-v"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="row" style="display: none;">
+                                <div class="col-xs-12">
+                                    <div class="input-group c-search">
+                                        <input type="text" class="form-control" id="contact-list-search">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search text-muted"></span></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="list-group" id="contact-list">
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="Scott Stevens" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Scott Stevens</span><br />
+                                        <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
+                                        <span class="visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br /></span>
+                                        <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
+                                        <span class="visible-xs"> <span class="text-muted">(870) 288-4149</span><br /></span>
+                                        <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
+                                        <span class="visible-xs"> <span class="text-muted">scott.stevens@example.com</span><br /></span>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+
+
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/women/76.jpg" alt="Glenda Patterson" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Glenda Patterson</span><br />
+                                        <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5020 Poplar Dr"></span>
+                                        <span class="visible-xs"> <span class="text-muted">5020 Poplar Dr</span><br /></span>
+                                        <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(538) 718-7548"></span>
+                                        <span class="visible-xs"> <span class="text-muted">(538) 718-7548</span><br /></span>
+                                        <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="glenda.patterson@example.com"></span>
+                                        <span class="visible-xs"> <span class="text-muted">glenda.patterson@example.com</span><br /></span>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
 
-                <ul class="list-group" id="contact-list">
-                    <li class="list-group-item">
-                        <div class="col-xs-12 col-sm-3">
-                            <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="Scott Stevens" class="img-responsive img-circle" />
+                <div id="cant-do-all-the-work-for-you" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 class="modal-title" id="mySmallModalLabel">Ooops!!!</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>I am being lazy and do not want to program an "Add User" section into this snippet... So it looks like you'll have to do that for yourself.</p><br />
+                                <p>
+                                    <strong>
+                                        Sorry<br />
+                                        ~ Mouse0270
+                                    </strong>
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-xs-12 col-sm-9">
-                            <span class="name">Scott Stevens</span><br />
-                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
-                            <span class="visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br /></span>
-                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
-                            <span class="visible-xs"> <span class="text-muted">(870) 288-4149</span><br /></span>
-                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
-                            <span class="visible-xs"> <span class="text-muted">scott.stevens@example.com</span><br /></span>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-                 
-                
-                    <li class="list-group-item">
-                        <div class="col-xs-12 col-sm-3">
-                            <img src="http://api.randomuser.me/portraits/women/76.jpg" alt="Glenda Patterson" class="img-responsive img-circle" />
-                        </div>
-                        <div class="col-xs-12 col-sm-9">
-                            <span class="name">Glenda Patterson</span><br />
-                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5020 Poplar Dr"></span>
-                            <span class="visible-xs"> <span class="text-muted">5020 Poplar Dr</span><br /></span>
-                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(538) 718-7548"></span>
-                            <span class="visible-xs"> <span class="text-muted">(538) 718-7548</span><br /></span>
-                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="glenda.patterson@example.com"></span>
-                            <span class="visible-xs"> <span class="text-muted">glenda.patterson@example.com</span><br /></span>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div id="cant-do-all-the-work-for-you" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h4 class="modal-title" id="mySmallModalLabel">Ooops!!!</h4>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <p>I am being lazy and do not want to program an "Add User" section into this snippet... So it looks like you'll have to do that for yourself.</p><br />
-                    <p>
-                        <strong>
-                            Sorry<br />
-                            ~ Mouse0270
-                        </strong>
-                    </p>
-                </div>
+
+                <!-- JavaScrip Search Plugin -->
+                <!--<script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
+                -->
             </div>
-        </div>
-    </div>
-
-    <!-- JavaScrip Search Plugin -->
-    <script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
-
-</div>
