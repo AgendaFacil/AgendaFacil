@@ -13,7 +13,7 @@ namespace AgendaFacil.Services.Services
 
 		public void CadastrarProfissional(Profissional obj)
 		{
-
+			
 		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿using AgendaFacil.Repository.Context;
+﻿using AgendaFacil.Domain.Interfaces.Repositories;
+using AgendaFacil.Repository.Context;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
