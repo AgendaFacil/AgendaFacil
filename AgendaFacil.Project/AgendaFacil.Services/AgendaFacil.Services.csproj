@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B4FDEBCA-FE93-44F5-B4BF-803562A84CC0}</ProjectGuid>
+    <ProjectGuid>{B74223F6-E5D7-4BD9-8CC0-05A183529A2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AgendaFacil.Services</RootNamespace>
@@ -39,14 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ProfissionalServices.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AgendaFacil.Domain\AgendaFacil.Domain.csproj">
-      <Project>{3dccd73b-3740-4557-a4b1-75f4c59ef8be}</Project>
-      <Name>AgendaFacil.Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

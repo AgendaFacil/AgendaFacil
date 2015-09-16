@@ -269,3 +269,5 @@ C:\Users\aluno\Desktop\Repos\AgendaFacil.Project\AgendaFacil.WebApi\bin\System.W
 C:\Users\aluno\Desktop\Repos\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.csprojResolveAssemblyReference.cache
 C:\Users\aluno\Desktop\Repos\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.dll
 C:\Users\aluno\Desktop\Repos\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Services.dll
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Services.pdb

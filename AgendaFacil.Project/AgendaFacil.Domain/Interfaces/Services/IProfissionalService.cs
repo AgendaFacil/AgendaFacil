@@ -5,15 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgendaFacil.Services.Services
+namespace AgendaFacil.Domain.Interfaces.Services
 {
-	public class ProfissionalServices
+
+	public interface IProfissionalService : IServiceBase<Profissional>
 	{
-
-
-		public void CadastrarProfissional(Profissional obj)
-		{
-			
-		}
 	}
 }

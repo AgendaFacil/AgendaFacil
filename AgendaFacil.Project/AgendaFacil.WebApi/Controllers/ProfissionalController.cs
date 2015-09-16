@@ -12,7 +12,7 @@ namespace AgendaFacil.WebApi.Controllers
 	[RoutePrefix("api/profissional")]
     public class ProfissionalController : ApiController
     {
-		ProfissionalService _profissionalService;
+		//ProfissionalService _profissionalService;
 
         // GET api/profissional
         public IEnumerable<string> Get()
@@ -29,7 +29,7 @@ namespace AgendaFacil.WebApi.Controllers
         // POST api/profissional
         public void Post([FromBody]Funcionario funcionario)
         {
-			_profissionalService.CadastrarProfissional();
+			//_profissionalService.CadastrarProfissional();
         }
 
         // PUT api/profissional/5

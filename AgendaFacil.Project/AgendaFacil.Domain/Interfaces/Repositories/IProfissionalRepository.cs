@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AgendaFacil.Domain.Interfaces.Repositories
 {
-	public class IProfissionalRepository : IRepositoryBase<Profissional>
+	public interface IProfissionalRepository : IRepositoryBase<Profissional>
 	{
 	}
 }
