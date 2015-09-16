@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DCCD73B-3740-4557-A4B1-75F4C59EF8BE}</ProjectGuid>
+    <ProjectGuid>{B4FDEBCA-FE93-44F5-B4BF-803562A84CC0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AgendaFacil.Domain</RootNamespace>
-    <AssemblyName>AgendaFacil.Domain</AssemblyName>
+    <RootNamespace>AgendaFacil.Services</RootNamespace>
+    <AssemblyName>AgendaFacil.Services</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,15 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Agenda.cs" />
-    <Compile Include="Entities\Cliente.cs" />
-    <Compile Include="Entities\Funcionario.cs" />
-    <Compile Include="Entities\Profissional.cs" />
-    <Compile Include="Entities\Tratamento.cs" />
-    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ProfissionalServices.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\AgendaFacil.Domain\AgendaFacil.Domain.csproj">
+      <Project>{3dccd73b-3740-4557-a4b1-75f4c59ef8be}</Project>
+      <Name>AgendaFacil.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -238,6 +238,10 @@
       <Project>{3dccd73b-3740-4557-a4b1-75f4c59ef8be}</Project>
       <Name>AgendaFacil.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AgendaFacil.Services\AgendaFacil.Services.csproj">
+      <Project>{b4fdebca-fe93-44f5-b4bf-803562a84cc0}</Project>
+      <Name>AgendaFacil.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

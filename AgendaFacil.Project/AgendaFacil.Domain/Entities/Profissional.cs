@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AgendaFacil.Domain.Entities
 {
-	class Profissional
+	public class Profissional
 	{
 	}
 }

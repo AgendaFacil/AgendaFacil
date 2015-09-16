@@ -53,10 +53,9 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\RepositoryBase.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\AgendaFacil.Domain\AgendaFacil.Domain.csproj">
       <Project>{3dccd73b-3740-4557-a4b1-75f4c59ef8be}</Project>
