@@ -1,0 +1,5 @@
+C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Services\bin\Debug\AgendaFacil.Services.dll
+C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Services\bin\Debug\AgendaFacil.Services.pdb
+C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Services\obj\Debug\AgendaFacil.Services.csprojResolveAssemblyReference.cache
+C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Services\obj\Debug\AgendaFacil.Services.dll
+C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Services\obj\Debug\AgendaFacil.Services.pdb

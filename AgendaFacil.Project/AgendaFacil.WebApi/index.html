@@ -1,10 +1,9 @@
 ﻿<!doctype html>
 <html ng-app="app">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="content-language" content="pt-br"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="pt-br" />
     <title>Agenda Fácil | EP Projeto</title>
-
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -12,71 +11,211 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
     <!--Stilo Personalizado-->
-    <link href="content/css/navbar-vertical.css" rel="stylesheet"/>
+    <link href="content/css/navbar-vertical.css" rel="stylesheet" />
     <script src="content/js/navbar-vertical.js"></script>
-
+    <link href="content/css/angular-chart.css" rel="stylesheet" />
     <style>
-        
+        .main-container {
+            background-color: rgba(200, 200, 200, 0.48);
+        }
 
-         .main-container{
-             background-color:rgba(200, 200, 200, 0.48);
-         }
+        .nav-tabs {
+            border-bottom: 2px solid #DDD;
+        }
+
+            .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+                border-width: 0;
+            }
+
+            .nav-tabs > li > a {
+                border: none;
+                color: #666;
+            }
+
+                .nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+                    border: none;
+                    color: #4285F4 !important;
+                    background: transparent;
+                }
+
+                .nav-tabs > li > a::after {
+                    content: "";
+                    background: #4285F4;
+                    height: 2px;
+                    position: absolute;
+                    width: 100%;
+                    left: 0px;
+                    bottom: -1px;
+                    transition: all 250ms ease 0s;
+                    transform: scale(0);
+                }
+
+            .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+                transform: scale(1);
+            }
+
+        .tab-nav > li > a::after {
+            background: #21527d none repeat scroll 0% 0%;
+            color: #fff;
+        }
+
+        .tab-pane {
+            padding: 15px 0;
+        }
+
+        .tab-content {
+            padding: 20px;
+        }
+
+        .card {
+            background: #FFF none repeat scroll 0% 0%;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+        }
+
+
+        #custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
     </style>
 </head>
 
-
-
 <body>
 
-
-        <!--Menu Horizontal-->
+    <!--Menu Horizontal-->
     <div ng-include="'app/partials/navbar.html'"></div>
 
-<div class="container-fluid main-container">
+    <div class="container-fluid main-container">
 
 
-    <button class="btn btn-info btn-sm" style="margin-bottom: 10px; margin-left: 10px"><i class="fa fa-plus"></i>Novo Agendamento</button>
-    <button class="btn btn-warning btn-outline btn-sm" style="margin-bottom: 10px; margin-left: 10px"><i class="fa fa-file-text-o"></i><a  style="color:#fff" href="/agenda">Consultar Agenda</a></button>
-    <div ng-include="'app/partials/navbar-vertical.html'"></div>
+        <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#modCadastroAgenda" style="margin-bottom: 10px; margin-left: 10px"><i class="fa fa-plus"></i><a data-toggle="modal" data-target="#modCadastro" style="color:#fff" href="#">Novo Agendamento</a></button>
+        <button class="btn btn-warning btn-outline btn-sm" data-toggle="modal" data-target="#modCadastro" style="margin-bottom: 10px; margin-left: 10px"><i class="fa fa-file-text-o"></i><a style="color:#fff" href="#/agenda">Consultar Agenda</a></button>
+
+        <div ng-include="'app/partials/navbar-vertical.html'"></div>
 
 
 
-    <!--Menu Vertical-->
-    <!--NG-VIEW-->
-    <div ng-view></div>
-</div>
-
+        <!--Menu Vertical-->
+        <!--NG-VIEW-->
+        <div ng-view></div>
+    </div>
     <!--FOOTER-->
     <div ng-include="'app/partials/footer.html'"></div>
 
-
-
     <!--SCRIPTS-->
-
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+    <script src="content/js/angular/Chart.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
+    <script src="content/js/angular/angular-chart.js"></script>
+
     <!--App-->
     <script src="app/app.js"></script>
+
+
     <!--Controllers-->
     <script src="app/Home/HomeController.js"></script>
     <script src="app/Agenda/AgendaController.js"></script>
     <script src="app/Cliente/ClienteController.js"></script>
     <script src="app/Profissional/ProfissionalController.js"></script>
     <script src="app/Tratamento/TratamentoController.js"></script>
-	
+
     <!--Services-->
-	<script src="app/Tratamento/TratamentoServices.js"></script>
-	<script src="app/Profissional/profissionalServices.js"></script>
+    <script src="app/Tratamento/TratamentoServices.js"></script>
+    <script src="app/Profissional/profissionalServices.js"></script>
     <!--BOOTSTRAP-->
     <script src="Scripts/bootstrap.min.js"></script>
     <!--BOOTSTRAP-->
-
     <!--FAFA THEME-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
+    <!--MODAL CADASTRO-->
+    <div class="container">
+        <div class="modal fade" id="modCadastroAgenda" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3>Agendar Serviço</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12 ">
+                                <div class="">
 
+                                    <div class="col-lg-12">
+                                        <form>
+                                            <!-- Nav tabs --><div class="card">
+                                                <ul class="nav nav-tabs" role="tablist">
+                                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Pesquisar</a></li>
+                                                    <li role="presentation" class="disabled"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Serviço</a></li>
+                                                    <li role="presentation" class="disabled"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Perfil</a></li>
+                                                    <li role="presentation" class="disabled"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Prontuario</a></li>
+                                          
+                                                </ul>
+
+                                                <!-- Tab panes -->
+                                                <div class="tab-content">
+                                                    <div role="tabpanel" class="tab-pane active" id="home">
+                                                        <div id="custom-search-input" style="height:40px">
+                                                            <div class="input-group col-md-12">
+                                                                <input type="text" class="form-control input-lg"  style="height:30px" placeholder="Buscar" />
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn btn-info btn-lg" type="button">
+                                                                        <i class="glyphicon glyphicon-search"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div role="tabpanel" class="tab-pane" disabled="disabled" id="profile">b</div>
+                                                    <div role="tabpanel" class="tab-pane" id="messages">c</div>
+                                                    <div role="tabpanel" class="tab-pane" id="settings">a</div>
+                                                </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="submit" class="btn btn-success" ng-click="salvarDados(profissional)" ng-model="profissional" value="Cadastrar" />
+                        <input type="button" class="btn btn-default" value="Voltar" data-dismiss="modal" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

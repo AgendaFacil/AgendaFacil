@@ -1,8 +1,8 @@
-﻿var app = angular.module('app', ['ngRoute']);
+﻿var app = angular.module('app', ['ngRoute', 'ui.bootstrap', 'chart.js']);
 
 app.config(function ($routeProvider, $locationProvider) {
 
-	$locationProvider.html5Mode(true);
+	//$locationProvider.html5Mode(true);
 
 	$routeProvider
 

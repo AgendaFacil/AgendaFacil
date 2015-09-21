@@ -65,14 +65,11 @@
 </style>
 <link href="../../content/css/style.css" rel="stylesheet" />
 
-
-<link href="../../content/bootstrap/angular-chart.css" rel="stylesheet" />
-<script src="../../Scripts/angular-chart.js"></script>
 <div class="col-md-9 content">
 
 
     <div class="panel panel-default">
-      
+     
         <div class="col-md-3 widget widget1">
             <div class="r3_counter_box">
                 <i class="pull-left fa fa-thumbs-up icon-rounded tamanho-icon"></i>
@@ -129,15 +126,10 @@
                     </div>
                     <div class="panel-body">
                         <div class="col-md-12">
-                            Fase1
-                            <div class="progress" style="height: 15px">
-                                <div class="one primary-color"></div>
-                                <div class="two primary-color"></div>
-                                <div class="three no-color"></div>
-                                <div class="progress-bar" style="width: 70%;"></div>
-                            </div>
-                            <hr />
+                          
 
+                            <canvas id="pie" class="chart chart-pie"
+                                    chart-data="data" chart-labels="labels"></canvas>
 
 
                         </div>
@@ -145,21 +137,26 @@
                 </div>
             </div>
             <div class="col-md-6 content" style="padding: 0px">
+          
                 <div class="panel panel-default">
                     <div class="panel-heading" style="background-image: none">
                         <i class="fa fa-bar-chart" style="color: #7A7A7B"></i> Graficos
                     </div>
                     <div class="panel-body">
                         <div class="col-md-12">
-                            Fase1
-                            <div class="progress" style="height:15px">
-                                <div class="one primary-color"></div><div class="two primary-color"></div><div class="three no-color"></div>
+                
+
+                            <canvas id="line" class="chart chart-line" chart-data="data2"
+                                    chart-labels="labels2" chart-legend="true" chart-series="series2"
+                                    chart-click="onClick"></canvas> 
+                            <!--Fase1
+                            <div class="progress" style="height: 15px">
+                                <div class="one primary-color"></div>
+                                <div class="two primary-color"></div>
+                                <div class="three no-color"></div>
                                 <div class="progress-bar" style="width: 70%;"></div>
                             </div>
-                            <hr />
-
-
-
+                            <hr />-->
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ app.controller('ProfissionalCtrl', ['$scope', 'profissionalService', '$rootScope
 
     var _carregaLista = function ($scope) {
     	profissionalService.getProfissionais().then(function (results) {
-    		alert("ok");
+    
     		$scope.listaProfissionais = results.data;
 
     	}, function (error) {
@@ -29,7 +29,7 @@ app.controller('ProfissionalCtrl', ['$scope', 'profissionalService', '$rootScope
 
 	
     	var $req;
-    	alert('clicou')
+    	
     	$req = profissionalService.gravarProfissional(profissional);
 
     	$req.success(function (resposta) {
