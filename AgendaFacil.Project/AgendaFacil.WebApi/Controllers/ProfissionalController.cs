@@ -1,5 +1,5 @@
 ﻿using AgendaFacil.Domain.Entities;
-using AgendaFacil.Domain.Services;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

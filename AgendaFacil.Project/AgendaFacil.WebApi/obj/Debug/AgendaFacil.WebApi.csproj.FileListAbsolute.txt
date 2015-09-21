@@ -271,3 +271,5 @@ C:\Users\aluno\Desktop\Repos\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\Ag
 C:\Users\aluno\Desktop\Repos\AgendaFacil.Project\AgendaFacil.WebApi\obj\Debug\AgendaFacil.WebApi.pdb
 C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Services.dll
 C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Services.pdb
+C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Services.dll
+C:\Users\Thiago\Source\agendafacil\AgendaFacil.Project\AgendaFacil.WebApi\bin\AgendaFacil.Services.pdb

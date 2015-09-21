@@ -152,9 +152,11 @@
     <Content Include="content\bootstrap\js\bootstrap.js" />
     <Content Include="content\bootstrap\js\bootstrap.min.js" />
     <Content Include="content\bootstrap\js\npm.js" />
+    <Content Include="content\css\custom.css" />
     <Content Include="content\css\navbar-vertical.css" />
     <Content Include="content\css\sb-admin-2.css" />
     <Content Include="content\css\signin.css" />
+    <Content Include="content\css\style.css" />
     <Content Include="content\css\timeline.css" />
     <Content Include="content\css\zigzagtimeline.css" />
     <Content Include="content\img\agendaFacilLogo.png" />

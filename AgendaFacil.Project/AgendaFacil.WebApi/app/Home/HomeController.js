@@ -1,3 +1,7 @@
 ﻿app.controller('HomeCtrl', function ($rootScope, $location) {
-	$rootScope.activetab = $location.path();
+
+    $rootScope.activetab = $location.path();
+
+
+
 });
