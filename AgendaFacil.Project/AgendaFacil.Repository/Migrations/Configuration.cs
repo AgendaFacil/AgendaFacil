@@ -9,7 +9,7 @@ namespace AgendaFacil.Repository.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(AgendaFacil.Repository.Context.AgendaFacilContext context)

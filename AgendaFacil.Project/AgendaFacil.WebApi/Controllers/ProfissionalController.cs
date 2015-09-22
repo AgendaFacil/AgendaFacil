@@ -1,5 +1,5 @@
 ﻿using AgendaFacil.Domain.Entities;
-
+using AgendaFacil.Services.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ namespace AgendaFacil.WebApi.Controllers
 	[RoutePrefix("api/profissional")]
     public class ProfissionalController : ApiController
     {
-		//ProfissionalService _profissionalService;
+        protected ProfissionalServices _profissionalService = new ProfissionalServices();
 
         // GET api/profissional
         public IEnumerable<string> Get()
@@ -27,9 +27,13 @@ namespace AgendaFacil.WebApi.Controllers
         }
 
         // POST api/profissional
-        public void Post([FromBody]Funcionario funcionario)
+        public void Post([FromBody]Profissional obj)
         {
-			//_profissionalService.CadastrarProfissional();
+            obj.Ativo = true;
+            obj.DataNascimento = DateTime.Now;
+            
+
+			_profissionalService.CadastrarProfissional(obj);
         }
 
         // PUT api/profissional/5

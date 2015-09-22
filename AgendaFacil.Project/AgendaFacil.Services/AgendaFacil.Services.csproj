@@ -39,8 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ProfissionalServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgendaFacil.Domain\AgendaFacil.Domain.csproj">
+      <Project>{3dccd73b-3740-4557-a4b1-75f4c59ef8be}</Project>
+      <Name>AgendaFacil.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AgendaFacil.Repository\AgendaFacil.Repository.csproj">
+      <Project>{7c439f68-5ee3-4b9a-9b6c-3baac89317fa}</Project>
+      <Name>AgendaFacil.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

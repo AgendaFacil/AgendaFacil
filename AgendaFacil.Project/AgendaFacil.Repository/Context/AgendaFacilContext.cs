@@ -15,13 +15,15 @@ namespace AgendaFacil.Repository.Context
 			: base("DB_AgendaFacil")
 		{
 			Database.SetInitializer<AgendaFacilContext>(null);
-		}
+            var ensureDLLIsCopied = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
+ 
+        }
 
 		public DbSet<Cliente> Clientes { get; set; }
 		public DbSet<Funcionario> Funcionarios { get; set; }
 		public DbSet<Agenda> Agendas { get; set; }
 		public DbSet<Tratamento> Tratamento { get; set; }
-
+        public DbSet<Profissional> Profissionais { get; set; }
 
 		
 
