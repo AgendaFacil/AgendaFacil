@@ -18,5 +18,10 @@ namespace AgendaFacil.Services.Services
             _repositoryBase.Add(obj);
         }
 
+		public IEnumerable<Profissional> getProfissionais() {
+
+			return _repositoryBase.GetAll();
+		}
+
     }
 }
