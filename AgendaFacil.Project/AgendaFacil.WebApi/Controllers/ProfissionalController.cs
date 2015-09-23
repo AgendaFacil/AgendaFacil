@@ -15,9 +15,9 @@ namespace AgendaFacil.WebApi.Controllers
         protected ProfissionalServices _profissionalService = new ProfissionalServices();
 
         // GET api/profissional
-        public IEnumerable<string> Get()
+        public IEnumerable<Profissional> Get()
         {
-            return new string[] { "value1", "value2" };
+			return _profissionalService.getProfissionais();
         }
 
         // GET api/profissional/5

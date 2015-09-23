@@ -25,7 +25,4 @@ C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\Agenda
 C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Domain\bin\Debug\AgendaFacil.Domain.pdb
 C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.dll
 C:\Users\Thiago Villaverde\Desktop\agendafacil-master\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.pdb
-C:\Users\thiago.quartarolo\Desktop\band\Agenda Facil\AgendaFacil.Project\AgendaFacil.Domain\bin\Debug\AgendaFacil.Domain.dll
-C:\Users\thiago.quartarolo\Desktop\band\Agenda Facil\AgendaFacil.Project\AgendaFacil.Domain\bin\Debug\AgendaFacil.Domain.pdb
-C:\Users\thiago.quartarolo\Desktop\band\Agenda Facil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.dll
-C:\Users\thiago.quartarolo\Desktop\band\Agenda Facil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.pdb
+C:\Users\aluno\Source\Repos\agendafacil\AgendaFacil.Project\AgendaFacil.Domain\obj\Debug\AgendaFacil.Domain.csprojResolveAssemblyReference.cache
