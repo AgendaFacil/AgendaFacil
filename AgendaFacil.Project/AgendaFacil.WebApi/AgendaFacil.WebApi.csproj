@@ -124,6 +124,7 @@
     <Content Include="app\app.js" />
     <Content Include="app\Cliente\cliente.html" />
     <Content Include="app\Cliente\ClienteController.js" />
+    <Content Include="app\Cliente\clienteService.js" />
     <Content Include="app\Home\home.html" />
     <Content Include="app\Home\HomeController.js" />
     <Content Include="app\Login\beneficios.html" />

@@ -112,31 +112,31 @@
         background-color: #cecece;
     }
 
-    .nav>li>a:focus, .nav>li>a:hover{
-        color:#f55567;
-        background-color:none;
-    }
-
-    .nav-pills > li > a:hover{
+    .nav > li > a:focus, .nav > li > a:hover {
         color: #f55567;
-        background-color:#fff;
+        background-color: none;
     }
 
-    .nav>li>a:focus, .nav>li>a:hover{
-          color: #f55567;
-        background-color:none;
+    .nav-pills > li > a:hover {
+        color: #f55567;
+        background-color: #fff;
     }
-    .seila{
+
+    .nav > li > a:focus, .nav > li > a:hover {
+        color: #f55567;
+        background-color: none;
+    }
+
+    .seila {
         color: #6B5757;
-        background-color:#fff;
-        font-size:11pt;
+        background-color: #fff;
+        font-size: 11pt;
     }
-   
-    .seila:hover{
-        color: #f55567;
-        background-color:#fff;
-    }
-   
+
+        .seila:hover {
+            color: #f55567;
+            background-color: #fff;
+        }
 </style>
 
 
@@ -151,34 +151,14 @@
         <div class="panel-body">
 
 
-        
+
             <ul class="nav nav-pills nav-stacked">
 
 
 
                 <li ng-class="{active3: activetab == '/'}" class="seila"><a href="#/home" class="seila"><span class="fa fa-angle-double-right text-primary"></span> Dashboard</a></li>
                 <li ng-class="{active3: activetab == '/profissionais'}"><a href="#/profissionais" class="seila"><span class="fa fa-angle-double-right text-primary"></span> Profissionais</a></li>
-                <li>
-                    <a href="#dropdown" data-toggle="collapse" class="seila"><span class="fa fa-angle-double-right text-primary"></span>Clientes</a>
-                </li>
-                <li>
-                    <div class="panel-collapse collapse" id="dropdown" style="background-color:rgba(0, 0, 0, 0);">
-                        <div class="panel-body">
-                            <ul class="nav navbar-nav">
-                                <li style="width:170px">
-                                    <a href="#/cliente" style="color:#544CB5; border-bottom: 1px solid #cecece"><span></span>Lista de clientes</a>
-                                </li>
-                                <li style="width:170px">
-                                    <a href="#/tratamento" style="color:#544CB5"><span class=""></span>Agendar Tratamento</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </li>
-             
-                
-            
+                <li ng-class="{active3: activetab == '/cliente'}"><a href="#/cliente" class="seila"><span class="fa fa-angle-double-right text-primary"></span> Clientes</a></li>
                 <li>
                     <a href="#dropdownServicos" data-toggle="collapse" class="seila"><span class="fa fa-angle-double-right text-primary"></span>Serviços</a>
                 </li>
